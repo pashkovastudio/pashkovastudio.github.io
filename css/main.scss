@@ -1,0 +1,56 @@
+---
+---
+#front-page-bg {
+    background-image: url(../assets/images/bg_tile.jpg);
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    text-shadow: 4px 3px 10px #000;
+    color: white;
+}
+#front-page-fg {
+    background-image: url(../assets/images/front_page.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 580px;
+}
+
+#front-page-fg h3 {
+    padding-top: 40px;
+    margin-top:0px;
+}
+#front-page-fg h2 {
+    padding-top: 30px;
+}
+@media (min-width: 360px) {
+    #front-page-fg h3 {
+        font-size: 22px;
+    }
+    #front-page-fg h2 {
+        font-size: 32px;
+    }
+}
+@media (min-width: 768px) {
+    #front-page-fg h3 {
+        font-size: 28px;
+    }
+    #front-page-fg h2 {
+        font-size: 40px;
+    }
+}
+@media (min-width: 992px) {
+    #front-page-fg h3 {
+        font-size: 32px;
+    }
+    #front-page-fg h2 {
+        font-size: 48px;
+    }
+}
+@media (min-width: 1200px) {
+    #front-page-fg h3 {
+        font-size: 48px;
+    }
+    #front-page-fg h2 {
+        font-size: 60px;
+    }
+}
+
