@@ -1,35 +1,34 @@
 ---
 ---
-#front-page-bg {
-    background-image: url(../assets/images/bg_tile.jpg);
+#front-page-fg {
+    background-image: url(../assets/images/front_page.jpg);
+    /*background-image: linear-gradient(90deg,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../assets/images/front_page10.jpg);*/
+    background-position-x: 0%, 0%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    min-height: 580px;
+    height: 90vh;
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
     text-shadow: 4px 3px 10px #000;
     color: white;
 }
-#front-page-fg {
-    background-image: url(../assets/images/front_page.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    min-height: 580px;
-}
-
-#front-page-fg h3 {
-    padding-top: 40px;
-    margin-top:0px;
-}
-#front-page-fg h2 {
-    padding-top: 30px;
+#tellmemore {
+    background-color: #2d403a91;
+    margin-bottom: 10vh;
+    text-shadow: none;
+    padding: 20px
 }
 @media (min-width: 360px) {
     #front-page-fg h3 {
         font-size: 22px;
     }
     #front-page-fg h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     #front-page-fg h3 {
         font-size: 28px;
     }
@@ -47,10 +46,10 @@
 }
 @media (min-width: 1200px) {
     #front-page-fg h3 {
-        font-size: 48px;
+        font-size: 54px;
     }
     #front-page-fg h2 {
-        font-size: 60px;
+        font-size: 68px;
     }
 }
 
